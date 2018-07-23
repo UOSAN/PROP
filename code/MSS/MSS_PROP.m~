@@ -1,4 +1,4 @@
-function MSS_PROP(tdfile,resource_path,DIR,varFile,startToggle)
+function MSS_PROP(tdfile,resource_path,DIR,startToggle)
 
 %% MSS(tdfile,resource_path) 
 %This is a program which presents text, sound and video stimuli using a
@@ -6,7 +6,7 @@ function MSS_PROP(tdfile,resource_path,DIR,varFile,startToggle)
 %added features. 
 %
 %tdfile should be a tab delimited file with fields:
-%[typ,num,pre,maxTime,totTime,rep,stpEvt,bg,st,bgFile,stFile,hshift,vshift,tag]= textread( tab_delimited_text_file, '%c %d %f %f %f %d %s %c %c %s %s %d %d %s','delimiter', '\t', 'whitespace', '', 'commentstyle', 'matlab' );
+%[type,num,pre,maxTime,totTime,rep,stpEvt,bg,st,bgFile,stFile,hshift,vshift,tag]= textread( tab_delimited_text_file, '%c %d %f %f %f %d %s %c %c %s %s %d %d %s','delimiter', '\t', 'whitespace', '', 'commentstyle', 'matlab' );
 %
 %If you are not running your script from the directory that holds your
 %tdfile, you should specify the entire path, e.g.
@@ -26,7 +26,7 @@ DIR.output = [DIR.task filesep 'output' filesep];
 
 
 Screen('Preference', 'SkipSyncTests', 1)
-DEBUG = 0;
+DEBUG = 1;
 PRINT_OUTPUT = 1; %Results will always print to screen, PRINT_OUTPUT determines whether gets saved to txt file as well
 
 default_start = 'default_start.jpg'; % Set the adult and kid start-up images
@@ -92,9 +92,7 @@ else
     
     tdfile
     %read in tab delimited file set up like MacStim (textread will read in as col vectors)
-% uncomment this!
-    %     [typ,num,pre,maxTime,totTime,rep,stpEvt,bg,st,bgFile,stFile,hshift,vshift,tag] = textread(tdfile, '%c %d %f %f %f %d %s %c %c %s %s %d %d %s','delimiter', '\t', 'whitespace', '', 'commentstyle', 'matlab' );
-    load([DIR.input varFile])
+    [type,num,pre,maxTime,totTime,rep,stpEvt,bg,st,bgFile,stFile,hshift,vshift,tag] = textread(tdfile, '%c %d %f %f %f %d %s %c %c %s %s %d %d %s','delimiter', '\t', 'whitespace', '', 'commentstyle', 'matlab' );
 end;
 
 if ~exist('startToggle')
@@ -139,8 +137,8 @@ if length(vshift) ~= length(stFile)
     vshift = [vshift zeros(1,length(stFile)-length(vshift))];
 end;
 
-if length(typ) ~= length(stFile)
-    fprintf('Warning: Your typ vector and your stFile vector do not match in length\n');
+if length(type) ~= length(stFile)
+    fprintf('Warning: Your type vector and your stFile vector do not match in length\n');
 end;
 
 if length(pre) ~= length(stFile)
@@ -174,9 +172,9 @@ end;
 
 for c = 1:length(stFile)
     
-    if isempty(typ(c))
-        fprintf('In the future, you should specify a typ for trial %d.  Reverting to default (s)\n',c);
-        typ(c) = 's';
+    if isempty(type(c))
+        fprintf('In the future, you should specify a type for trial %d.  Reverting to default (s)\n',c);
+        type(c) = 's';
     end;
      
     if isempty(num(c))
@@ -252,9 +250,8 @@ for i=1:length(stFile)
     if st(i) ~= 't' && ~isempty(stFile{i})
         stFile{i} = [resource_path stFile{i}];
     elseif ~isempty(stFile{i})
-        if stFile{i}(1)=='"' && stFile{i}(end)=='"'    
-            stFile{i} = stFile{i}(2:end-1);
-        end
+        if stFile{i}(1)=='"'
+           
     end;
         
     if bg(i) ~= 't' && ~isempty(bgFile{i})
@@ -270,7 +267,7 @@ end;
 number_of_trials=length(stFile);
 default_stimulus_duration=0; % time for stimulus, in seconds
 interstimulus_interval= 0; % default time between trials, in seconds
-trial_order = calculate_trial_order(typ,num); %default stimulus order is consecutive
+trial_order = calculate_trial_order(type,num); %default stimulus order is consecutive
 default_wrap = 1200; %in pixels
 default_display = sprintf('DrawFormattedText_new(w,''+'',''center'', ''center'',black, default_wrap,0,0);');
 nrchannels = 1; %default number of channels for sound playback is 1 = mono (if you have stereo sound, use nrchannels = 2)
@@ -709,7 +706,7 @@ for j = 1:number_of_trials,
         no_response_yet=1;
         
         %p = pause trial
-        while (typ(i) == 'p' && no_response_yet == 1) || (typ(i) ~= 'p' && no_response_yet == 1 && GetSecs < start_time + stimulus_duration(i)),
+        while (type(i) == 'p' && no_response_yet == 1) || (type(i) ~= 'p' && no_response_yet == 1 && GetSecs < start_time + stimulus_duration(i)),
             [keyIsDown,secs,keyCode]=KbCheck(inputDevice);
             if keyIsDown, %key is pressed
                 key_presses.key{length(key_presses.key)+1} = KbName(keyCode);
@@ -758,10 +755,10 @@ for j = 1:number_of_trials,
     duration(i) = GetSecs - onset(i) - experiment_start_time; %record actual stimulus duration time
         
     %For any remaining time, put up background
-    if GetSecs < pre_start_time+totTime(i) && typ(i) ~= 'p'
+    if GetSecs < pre_start_time+totTime(i) && type(i) ~= 'p'
         eval(bg_display);
         Screen('Flip',w);
-        while GetSecs < pre_start_time+totTime(i) && typ(i) ~= 'p'
+        while GetSecs < pre_start_time+totTime(i) && type(i) ~= 'p'
 
             [keyIsDown,secs,keyCode]=KbCheck(inputDevice);
             if keyIsDown, %key is pressed
