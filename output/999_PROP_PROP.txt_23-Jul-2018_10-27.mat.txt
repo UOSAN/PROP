@@ -1,0 +1,30 @@
+
+
+EXPERIMENT INFO for MSS_PROP, ~/Desktop/PROP//output//999_PROP_PROP.txt_23-Jul-2018_10-27.mat
+
+Subject Code = 999
+Input File = PROP.txt
+Experiment notes: This is the script for the PRP task, updated 7-19-18.
+
+Tag	Trial	Order	Onset	Dur	RT	Response
+
+instrux	1	1	0.0165	5.0025	0.000	
+cbt1_1	2	2	5.0834	3.2264	3.219	3
+relevance	3	3	9.0340	1.3887	1.386	4
+liking	4	4	13.0348	1.2798	1.277	2
+helpfulness	5	5	17.0353	0.0000	0.000	
+
+
+All Keys Pressed:
+
+Key	Time	Accompanying Stimulus
+m	0.04	instrux.jpg
+space	7.48	"""An automatic thought is a thought that seems to pop into our heads. Everyone has them."""
+3	8.31	"""An automatic thought is a thought that seems to pop into our heads. Everyone has them."""
+3	8.34	default bg, st was """An automatic thought is a thought that seems to pop into our heads. Everyone has them."""
+4	10.42	relevance.jpg
+4	10.44	default bg, st was relevance.jpg
+2	14.31	liking.jpg
+2	14.34	default bg, st was liking.jpg
+1	17.33	helpfulness.jpg
+1	17.36	default bg, st was helpfulness.jpg

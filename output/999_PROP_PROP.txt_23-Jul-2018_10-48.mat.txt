@@ -1,0 +1,33 @@
+
+
+EXPERIMENT INFO for MSS_PROP, ~/Desktop/PROP//output//999_PROP_PROP.txt_23-Jul-2018_10-48.mat
+
+Subject Code = 999
+Input File = PROP.txt
+Experiment notes: This is the script for the PRP task, updated 7-19-18.
+
+Tag	Trial	Order	Onset	Dur	RT	Response
+
+instrux	1	1	0.0142	5.0014	0.000	
+fix	2	2	5.0314	2.0010	0.000	
+cbt1_1	3	3	7.0817	6.0016	0.000	
+fix	4	4	13.0982	1.0019	0.000	
+cbt1_2	5	5	14.1327	6.0008	0.000	
+fix	6	6	20.1489	1.0001	0.000	
+cbt1_3	7	7	21.1819	6.0009	0.000	
+fix	8	8	27.1996	1.0024	0.000	
+cbt1_4	9	9	28.2324	6.0004	0.000	
+fix	10	10	34.2495	1.0036	0.000	
+cbt1_5	11	11	35.2826	5.0006	0.000	
+fix	12	12	40.2998	2.0011	0.000	
+relevance	13	13	42.3177	3.0013	0.000	
+fix	14	14	45.3343	2.0002	0.000	
+liking	15	15	47.3515	3.0002	0.000	
+fix	16	16	50.3671	2.0014	0.000	
+helpfulness	17	17	52.3850	3.0008	0.000	
+fix	18	18	55.4008	0.0000	0.000	
+
+
+All Keys Pressed:
+
+Key	Time	Accompanying Stimulus
