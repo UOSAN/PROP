@@ -1,4 +1,4 @@
-function MSS_PROP(tdfile,resource_path,DIR,varFile,startToggle)
+function MSS_PROP(tdfile,resource_path,DIR,startToggle)
 
 %% MSS(tdfile,resource_path) 
 %This is a program which presents text, sound and video stimuli using a
@@ -90,11 +90,8 @@ else
         fprintf('tdfile_path = %s\n',tdfile_path)
     end;
     
-    tdfile
     %read in tab delimited file set up like MacStim (textread will read in as col vectors)
-% uncomment this!
-    %     [typ,num,pre,maxTime,totTime,rep,stpEvt,bg,st,bgFile,stFile,hshift,vshift,tag] = textread(tdfile, '%c %d %f %f %f %d %s %c %c %s %s %d %d %s','delimiter', '\t', 'whitespace', '', 'commentstyle', 'matlab' );
-    load([DIR.input varFile])
+    [typ,num,pre,maxTime,totTime,rep,stpEvt,bg,st,bgFile,stFile,hshift,vshift,tag] = textread(tdfile, '%c %d %f %f %f %d %s %c %c %s %s %d %d %s','delimiter', '\t', 'whitespace', '', 'commentstyle', 'matlab' );
 end;
 
 if ~exist('startToggle')

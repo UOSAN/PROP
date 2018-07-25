@@ -1,0 +1,37 @@
+%type	num	pre	maxTime	totTime	rep	stpEvt	bg	st	bgFile	stFile	hshift	vshift	tag
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		An automatic thought is a thought that seems to pop into our heads. Everyone has them.	0	0	cbt1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We are usually not trying to think about them; that's why we call them automatic.	0	0	cbt1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Most of the time, these thoughts are very quick and we are more aware of the emotion these thoughts make us feel."	0	0	cbt1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Lots of times the thoughts are distorted in some way, but we react as if they are true."	0	0	cbt1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		What we will do is teach you to identify your automatic thoughts and then to evaluate them to see just how accurate they are.	0	0	cbt1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"When you notice your mood changing or getting worse, stop and ask yourself, 'What is going through my mind right now?'"	0	0	cbt2
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		Perhaps you could write down a few of these thoughts on a piece of paper or on your phone.	0	0	cbt2
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		Sometimes you may not be able to tell what you were thinking. 	0	0	cbt2
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Replay the scene as vividly as you can in your imagination, as if it is happening again, and concentrate on how you're feeling."	0	0	cbt2
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Then ask yourself, 'What's going through my mind?'"	0	0	cbt2
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
