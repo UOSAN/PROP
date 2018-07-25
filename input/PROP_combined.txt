@@ -1,6 +1,30 @@
 %type	num	pre	maxTime	totTime	rep	stpEvt	bg	st	bgFile	stFile	hshift	vshift	tag
 s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
 s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		Effectively managing stressful life problems requires a planful approach. 	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		The set of skills required to do this require both learning and practice and include four planful problem-solving skills. 	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We teach you these skills and help you practice them in your everyday life by completing PST planful problem-solving worksheets.	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"The four skills are problem definition, generating alternatives, decision-making and solution implementation and verification."	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Through problem definition, or the clarifying the nature of a problem, you learn how to set a realistic problem-solving goal, and identify those obstacles that are currently from preventing you from reaching your goals."	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"The second one is generation of alternatives, in which we teach you to use your creative skills to brainstorm different types of solutions."	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		For the third skill (decision making) you will learn how to look at the likely consequences of different solution ideas and develop an action plan that is geared toward achieving the problem-solving goal.	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"The last skill is solution implementation and verification, involves carrying out the action plan, monitoring and evaluating the consequences of the plan, and determining whether one’s problem-solving efforts have been successful."	0	0	ast1
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	6.000000	6.000000	1	n	n	t		An automatic thought is a thought that seems to pop into our heads. Everyone has them.	0	0	cbt1
 s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	6.000000	6.000000	1	n	n	t		We are usually not trying to think about them; that's why we call them automatic.	0	0	cbt1
@@ -28,6 +52,110 @@ s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	6.000000	6.000000	1	n	n	t		"Replay the scene as vividly as you can in your imagination, as if it is happening again, and concentrate on how you're feeling."	0	0	cbt2
 s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	6.000000	6.000000	1	n	n	t		"Then ask yourself, 'What's going through my mind?'"	0	0	cbt2
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Sometimes automatic thoughts are true, sometimes they are not true, and sometimes they have a grain of truth."	0	0	cbt3
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We will look at your thoughts and see how accurate they are.	0	0	cbt3
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		What evidence was there that the thought was true?	0	0	cbt3
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		What evidence was there that the thought was not true?	0	0	cbt3
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We will evaluate your thoughts by using a worksheet called a Thought Record. This worksheet is an organized way to respond to thoughts that are distressing to you.	0	0	cbt4
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"In the first section, write down the thought that was distress you."	0	0	cbt4
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"In the next section, write down the situation. When you had the thought, what was happening?"	0	0	cbt4
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"In the third section, write down your emotions."	0	0	cbt4
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"In the fourth section, write down your automatic thoughts."	0	0	cbt4
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		There are many common mistakes people make in their thinking.	0	0	cbt5
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		It may be helpful to try to figure out what thought mistake you might be making because it will help you respond to the thought better.	0	0	cbt5
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"One common mistake is called ='“all or nothing thinking,' where you see things in very black and white terms, instead of shades of grey."	0	0	cbt5
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We would ask you to look back at your thoughts from the last week to see if any of them fall under this mistake.	0	0	cbt5
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		A core belief is an idea that you may not believe very strongly when you're not experiencing mental health symptoms.	0	0	cbt6
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"However, we would expect you to believe it almost completely when you are experiencing mental health symptoms."	0	0	cbt6
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"When it is activated, you will easily notice any evidence that seems to support it and you tend to ignore any evidence that contradicts it."	0	0	cbt6
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We will learn how to evaluate those core beliefs. 	0	0	cbt6
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		What is the evidence for your core belief? What is the evidence against your core belief?	0	0	cbt6
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		We will do an experiment to test your automatic thought to see if it is true or not.	0	0	cbt7
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"We will find a situation, such as with your friends, with your partner, with your family, at your work or school, to test out your automatic thought. "	0	0	cbt7
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"You will act out your automatic thought (ex., You think you cannot strike up a conversation with a stranger) and see what happens. "	0	0	cbt7
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you are able to talk to a stranger, it shows that you can."	0	0	cbt7
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"If you are unable, we can prepare you to respond to that thought so you will not get demoralized."	0	0	cbt7
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		instrux.jpg	0	0	instrux
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Therapist: So you believe about 90% that if you ask for help, it means you're inadequate. Is that right?\n\n Patient: Yes."	0	0	cbt8
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		Therapist: Could there by another way of viewing asking for help?\n\nPatient: I don't know.	0	0	cbt8
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Therapist: Take therapy, for example. Are you inadequate because you came for help here?\n\n Patient: A little, maybe."	0	0	cbt8
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Therapist: That's interesting, because I usually view it in the opposite way. Is it possible it is actually a sign of strength and adequacy that you came to therapy? Because what would have happened if you hadn't?\n\n Patient: I might still be in bed, not going to class."	0	0	cbt8
+s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	6.000000	6.000000	1	n	n	t		"Therapist: Are you suggesting that asking for appropriate help when you have an illness like depression is a more adequate thing to do than remaining depressed?\n\nPatient: Yea, I guess so."	0	0	cbt8
 s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
 s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix

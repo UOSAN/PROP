@@ -1,5 +1,7 @@
 function[] = createTdfile(DIR, tdfile_instrux,tdfile_trialParams,tdfile_trialText,tdfile_ratings)
 
+tdfile_complete = 'PROP_combined.txt';
+
 cd(DIR.input)
 %make sure that the input script (tdfile) is actually a file
 if ~exist(tdfile_instrux,'file')
@@ -80,6 +82,7 @@ else
         else fprintf('column %d is of type %s; not converted\n',c,class(colContent))
         end
     end
+      
     trialTextCell_flat = [trialTextCell_flat{:}];
     
     % create list of vignette codes (e.g. cbt1, cbt2)
@@ -106,9 +109,7 @@ else
         % ratings
     end
     
-    save current
-    
-    fid = fopen('PROP_combined.txt','w');
+    fid = fopen(tdfile_complete,'w');
     
     % Print header to file:
     headerSpec = '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n';
