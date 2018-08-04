@@ -20,9 +20,9 @@ function MSS_PROP(tdfile,resource_path,DIR,startToggle)
 % variables.
 
 %% Set up variables for subject info and script info
-DIR.task = '~/Desktop/PROP/';
-DIR.input = [DIR.task filesep 'input' filesep];
-DIR.output = [DIR.task filesep 'output' filesep];
+% DIR.task = '~/Desktop/PROP/';
+% DIR.input = [DIR.task filesep 'input' filesep];
+% DIR.output = [DIR.task filesep 'output' filesep];
 
 
 Screen('Preference', 'SkipSyncTests', 1)

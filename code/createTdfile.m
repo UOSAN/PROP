@@ -85,12 +85,12 @@ else
       
     trialTextCell_flat = [trialTextCell_flat{:}];
     
-    % create list of vignette codes (e.g. cbt1, cbt2)
-    vignettes = unique(cellfun(@(x) x(1:4),trialTextCell{:,2},'UniformOutput',false));
+    % create list of vignette codes (e.g. cbt01, cbt02)
+    vignettes = unique(cellfun(@(x) x(1:5),trialTextCell{:,2},'UniformOutput',false));
     vignetteIdx = nan(length(trialTextCell_flat),length(vignettes));
     masterCell = {};
     for v = 1:length(vignettes)
-        vignetteIdx(:,v) = cellfun(@(x) strcmp(x(1:4),vignettes{v}),trialTextCell{:,2});
+        vignetteIdx(:,v) = cellfun(@(x) strcmp(x(1:5),vignettes{v}),trialTextCell{:,2});
         vignetteText{v} = trialTextCell_flat(logical(vignetteIdx(:,v)),1);
         
         nSentences = size(vignetteText{v},1);
