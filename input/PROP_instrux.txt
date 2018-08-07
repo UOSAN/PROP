@@ -1,1 +1,1 @@
-%type	num	pre	maxTime	totTime	rep	stpEvt	bg	st	bgFile	stFile	h	v	tagss	1	0	5	5	1	n	n	p		instrux.jpg			instruxs	1	0	2	2	1	n	n	p		fix.jpg			fix%													
+%type	num	pre	maxTime	totTime	rep	stpEvt	bg	st	bgFile	stFile	h	v	tagss	1	0	5	5	1	n	n	p		instrux.jpg			instruxs	1	0	1	1	1	n	n	p		fix.jpg			fix%													

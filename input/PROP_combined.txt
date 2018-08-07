@@ -1,319 +1,323 @@
 %type	num	pre	maxTime	totTime	rep	stpEvt	bg	st	bgFile	stFile	hshift	vshift	tag
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We will work to change thoughts and behaviors that are feeding the negative feelings you've been experiencing.	0	0	cbt01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you feel depressed, you will likely have many negative thoughts, possibly about yourself or others or about your life in general."	0	0	cbt01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Also, when you're depressed, you're more likely to act in ways that only feed your negative thoughts and sadness."	0	0	cbt01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"These behaviors may include withdrawing socially, avoiding tasks, and poor self-care."	0	0	cbt01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"In therapy, you will learn skills to change unhelpful thought and behavior patterns, which will help you feel better emotionally."	0	0	cbt01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		We will work to change thoughts and behaviors that are feeding the negative feelings you've been experiencing.	0	0	cbt01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, if you feel depressed, you will likely have many negative thoughts, possibly about yourself or others, or about your life in general."	0	0	cbt01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Also, when you're depressed, you're more likely to act in ways that feed your negative thoughts and sadness."	0	0	cbt01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"These behaviors may include withdrawing socially, avoiding tasks, and poor self-care."	0	0	cbt01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"In therapy, you will learn skills to change unhelpful thought and behavior patterns, which will help you feel better emotionally."	0	0	cbt01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"When you're depressed, people frequently overlook their negative thoughts, or cognitions and assume what they are thinking is truth or reality. In therapy, we work to question the reality created by depressive thoughts."	0	0	cbt02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"The first step in doing this is learning to catch or identify automatic thoughts. An automatic thought are thoughts that pop into our heads and most of the time, happen automatically and outside of our awareness."	0	0	cbt02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"We are usually more aware of the emotion these thoughts make us feel, such as sad or depressed, and we do not question what we are thinking. But, often the thoughts we are having are distorting reality in some way."	0	0	cbt02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Before we can even start questioning our thoughts, we have to slow down our thoughts and know what may be fueling our sadness."	0	0	cbt02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"One way to do this is to systematically write down moments we feel a negative emotion, and identify what thoughts we were having during those moments."	0	0	cbt02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"When depressed, people frequently overlook their negative thoughts or cognitions, and assume what they are thinking is truth or reality. In therapy, we work to question the reality created by depressive thoughts."	0	0	cbt02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		The first step in doing this is learning to catch or identify automatic thoughts.	0	0	cbt02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Automatic thoughts are thoughts that pop into our heads, and most of the time, they happen automatically and outside of our awareness."	0	0	cbt02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"We are usually more aware of the emotions these thoughts make us feel, such as sad or depressed, and we do not question what we are thinking. But often, the thoughts we are having are distorting reality in some way."	0	0	cbt02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Before we can even start questioning our thoughts, we have to slow down our thoughts and know what may be fueling our sadness."	0	0	cbt02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"One way to do this is to systematically write down moments we feel a negative emotion, and identify what thoughts we were having during those moments."	0	0	cbt02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"As you get better at identifying your automatic thoughts, you will see that these negative thoughts that flood your mind can fuel your sadness and depression."	0	0	cbt03
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		These thoughts are what keep you lethargic and make you feel inadequate.	0	0	cbt03
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Finding ways to noticing and evaluating the accuracy of your negative thoughts is key to feeling better.	0	0	cbt03
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"As you get better at identifying your automatic thoughts, you will see that these negative thoughts that flood your mind can fuel your sadness and depression."	0	0	cbt03
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		These thoughts can keep you feeling lethargic and inadequate.	0	0	cbt03
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		Finding ways to notice and evaluate the accuracy of your negative thoughts are key to feeling better.	0	0	cbt03
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"When we look at your thoughts, sometimes they are true, not true, or have a grain of truth."	0	0	cbt04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We will teach you how to evaluate the accuracy of your thoughts by looking at the evidence.	0	0	cbt04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		What evidence is there that the thought is true?	0	0	cbt04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		What evidence is there that the thought is not true?	0	0	cbt04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"When we look at your thoughts, sometimes they are true, not true, or have a grain of truth."	0	0	cbt04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		We will teach you how to evaluate the accuracy of your thoughts by looking at the evidence.	0	0	cbt04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		What evidence is there that the thought is true?	0	0	cbt04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		What evidence is there that the thought is not true?	0	0	cbt04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Because your automatic thoughts are so quick, they are hard to notice or remember, we Êwant to practice identifying them by writing them down on what we call a Thought Record."	0	0	cbt05
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We usually notice how weÕre feeling before we notice what weÕre thinking.	0	0	cbt05
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"I want you to notice moments when you feel a negative emotion and write down on the Thought Record what the situation was, what emotions you were feeling, and then what thoughts you had when the event or situation happened."	0	0	cbt05
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Because your automatic thoughts are so quick, they are hard to notice or remember."	0	0	cbt05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"We want to practice identifying them by writing them down on what we call a ""Thought Record."""	0	0	cbt05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		We usually notice how we're feeling before we notice what we're thinking.	0	0	cbt05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"I want you to notice moments when you feel a negative emotion and write down on the Thought Record what the situation was, what emotions you were feeling, and then what thoughts you had when the event or situation happened."	0	0	cbt05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		It is crucial to write down your automatic thoughts.	0	0	cbt06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Writing them down forces you to look at it more objectively.	0	0	cbt06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		It also helps you see if there are any patterns or mistakes in your thoughts.	0	0	cbt06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		It is crucial to write down your automatic thoughts.	0	0	cbt06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		Writing them down forces you to look at them more objectively.	0	0	cbt06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		It also helps you see if there are any patterns or mistakes in your thoughts.	0	0	cbt06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"There are many common mistakes, or cognitive distortions, people make in their thinking."	0	0	cbt07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"By figuring out what cognitive distortion you are doing, you can respond to the thought better."	0	0	cbt07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"One cognitive distortion is called all or nothing thinking, where you see things in very black and white terms."	0	0	cbt07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you were feeling depressed and unable to finish your homework, you would think that you were a failure and will always be a failure forever."	0	0	cbt07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"There are many common mistakes, or “cognitive distortions,” people make in their thinking."	0	0	cbt07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"By figuring out what cognitive distortions you may be having, you can respond to situations in a more healthy way. "	0	0	cbt07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"One cognitive distortion is called ""all or nothing thinking,"" where you see things in very black and white terms."	0	0	cbt07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, if you were feeling depressed and unable to finish your homework, you might think that you are a failure and will be a failure forever."	0	0	cbt07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Earlier we talked about finding evidence for your automatic thoughts.	0	0	cbt08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Doing a behavioral experiment is one way to find evidence. You will act out your automatic thought and see what happens.	0	0	cbt08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you think you cannot get out of bed because you feel so sad, we will see if you can."	0	0	cbt08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"If you can get out of bed, you now have evidence that you can do it."	0	0	cbt08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"If you cannot, that is ok—we will talk about how to respond so you do not feel even worse."	0	0	cbt08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		Earlier we talked about finding evidence for your automatic thoughts.	0	0	cbt08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Doing a ""behavioral experiment"" is one way to collect and examine the evidence. To do this, you may act out your automatic thought to see if what you predict happens. "	0	0	cbt08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, say you think you will feel worse if you get out of bed and take a shower because you feel so sad."	0	0	cbt08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		You can test that out by getting out of bed and showering when you feel depressed and want to lay in bed. 	0	0	cbt08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		We can then see if you do indeed feel worse as your automatic thought predicts you will.	0	0	cbt08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"When we do behavioral experiments, we will create hypotheses to test. In hypothesis testing, we challenge unhelpful behaviors and thoughts by testing out alternative ways of responding."	0	0	cbt09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We do this by developing a behavioral experiment to test if your new way of thinking or new behavior makes you feel better than your current thoughts and behaviors. We then “collect data” as you run the experiment.	0	0	cbt09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, you know that lying in bed is unhelpful for your depression. You have the hypothesis that getting out of bed and taking a shower as soon as you wake in the morning will be helpful to your mood."	0	0	cbt09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		You then test out this hypothesis and collect data by monitoring your mood on days you did wake up and take a shower compared to the days you laid in bed all day.	0	0	cbt09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Once you've collected the data, we would evaluate the benefits of the new behavior."	0	0	cbt09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"When we do behavioral experiments, we will create hypotheses to test. In “""ypothesis testing,"" we challenge unhelpful behaviors and thoughts by testing out alternative ways of responding. "	0	0	cbt09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"We do this by developing a behavioral experiment to test if your new way of thinking or new behavior makes you feel better than your current thoughts and behaviors. We then ""collect data"" as you run the experiment."	0	0	cbt09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, you know that avoiding your email is unhelpful for your depression. You have the hypothesis that checking your email will only worsen your mood and depression."	0	0	cbt09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"You can then test out this hypothesis by checking your email at a specific time, and rating your mood before and after you checked your email."	0	0	cbt09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Once you've collected the data, we will evaluate the benefits of challenging your avoidance."	0	0	cbt09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Doing these behavioral experiments is difficult and can bring up many emotions.	0	0	cbt10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"To help better understand how intensely you are feeling these emotions, we will teach you to use a rating scale called the subjective units of distress scale (SUDS)."	0	0	cbt10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Using the SUDS, your emotions will range in intensity from 0 or not noticeable to 100 or at the highest extreme."	0	0	cbt10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		The SUDS will help you communicate what you are feeling more accurately and in an understandable way to both of us.	0	0	cbt10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"As you become more skilled at using the SUDS, you will feel clearer about your feelings and more able to make decisions about what you would like to try to do in therapy."	0	0	cbt10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		Doing these behavioral experiments is difficult and can bring up many emotions.	0	0	cbt10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"To help better understand how intensely you are feeling these emotions, we will teach you to use a rating scale called the subjective units of distress scale (SUDS)."	0	0	cbt10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Using the SUDS, your emotions will range in intensity from 0 (not noticeable) to 100 (the highest extreme)."	0	0	cbt10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		The SUDS will help you communicate what you are feeling more accurately and in an understandable way to both of us.	0	0	cbt10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"As you become more skilled at using the SUDS, you will feel clearer about your feelings and more able to make decisions about what you would like to try to do in therapy."	0	0	cbt10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Effectively managing stressful life problems requires a planful approach.	0	0	pst01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		The set of skills required to do this require both learning and practice and include four planful problem-solving skills.	0	0	pst01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We teach you these skills and help you practice them in your everyday life by completing PST planful problem-solving worksheets.	0	0	pst01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"The four skills are problem definition, generating alternatives, decision-making and solution implementation and verification."	0	0	pst01
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		Effectively managing stressful life problems requires a planful approach.	0	0	pst01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		The set of skills required to do this require both learning and practice and include four planful problem-solving skills.	0	0	pst01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		We teach you these skills and help you practice them in your everyday life by completing PST planful problem-solving worksheets.	0	0	pst01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"The four skills are problem definition, generating alternatives, decision-making, and solution implementation and verification."	0	0	pst01
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"One skill that may help you is called problem definition, or the clarifying the nature of a problem."	0	0	pst02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		You will learn how to set a realistic problem-solving goal and identify those obstacles that are currently from preventing you from reaching your goals.	0	0	pst02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you want to raise your GPA, we will figure out a realistic GPA that you can achieve and identify the very real obstacles that are currently preventing you from reaching that."	0	0	pst02
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"One skill that may help you is called ""problem definition,"" or the clarifying the nature of a problem."	0	0	pst02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		You will learn how to set a realistic problem-solving goal and identify the obstacles that are currently preventing you from reaching that goal.	0	0	pst02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, if you want to raise your GPA, we will figure out a realistic GPA that you can achieve and identify the very real obstacles that are currently preventing you from reaching that."	0	0	pst02
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"One skill that may help you is the generation of alternatives, in which we teach you to use your creative skills to brainstorm different types of solutions."	0	0	pst03
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"You will come up with as many solutions as you can—not all will be the best solution, but it helps you think of alternatives."	0	0	pst03
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you are struggling to talk to your roommate about cleaning up after themselves, you can use the brainstorming tool to discover that there are many ways to get closer to your goal and get past the obstacles in your way."	0	0	pst03
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"One skill that may help you is the ""generation of alternatives,"" in which we teach you to use your creative skills to brainstorm different types of solutions."	0	0	pst03
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"You will come up with as many solutions as you can. Not all will be the best solution, but it helps you think of alternatives."	0	0	pst03
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, if you are struggling to talk to your roommate about cleaning up after themselves, you can use the brainstorming tool to discover that there are many ways to get closer to your goal and get past the obstacles in your way."	0	0	pst03
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Using the skill of decision making, you will learn how to look at the likely consequences of different solution ideas."	0	0	pst04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"After looking at these consequences, you will learn how to develop an action plan that is geared toward achieving the problem-solving goal."	0	0	pst04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you want to raise your GPA, you can develop an action plan that represents the best solution match for you."	0	0	pst04
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Using the skill of ""decision making,"" you will learn how to look at the likely consequences of different solution ideas."	0	0	pst04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"After looking at these consequences, you will learn how to develop an action plan that is geared toward achieving the problem-solving goal."	0	0	pst04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, if you want to raise your GPA, you can develop an action plan that represents the best solution match for you."	0	0	pst04
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		One skill that may help you is called solution implementation and verification.	0	0	pst05
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"This skill involves carrying out the action plan, monitoring and evaluating the consequences of the plan, and determining whether one's problem-solving efforts have been successful."	0	0	pst05
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, if you are struggling to talk to your roommate about cleaning up after themselves, once you have figured out the best solution, you can carry it out, see what happens, and evaluate if the outcome is what you wanted."	0	0	pst05
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"One skill that may help you is called ""solution implementation and verification."""	0	0	pst05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"This skill involves carrying out the action plan, monitoring and evaluating the consequences of the plan, and determining whether one's problem-solving efforts have been successful."	0	0	pst05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, if you are struggling to talk to your roommate about cleaning up after themselves, once you have figured out the best solution, you can carry it out, see what happens, and evaluate if the outcome is what you wanted."	0	0	pst05
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Through “externalization” you will experience how writing things down, recording messages for yourself on your iPhone, or talking through a difficult problem helps you to be less overwhelmed."	0	0	pst06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		Try getting the brain overload you are experiencing with a difficult problem “out of your head” and onto paper and you may notice that the thinking part of your brain can better understand and begin to organize this challenging problem or goal.	0	0	pst06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, trying to talk to your parents about your current relationship may be really hard."	0	0	pst06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Let's write down all of the thoughts, feelings, and concerns that are contributing to your experience of being overwhelmed as a way to being to begin to organize all of this information."	0	0	pst06
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Through ""externalization"" you will experience how writing things down, recording messages for yourself on your iPhone, or talking through a difficult problem helps you to be less overwhelmed."	0	0	pst06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Try getting the brain overload you are experiencing with a difficult problem ""out of your head"" and onto paper, and you may notice that the thinking part of your brain can better understand and begin to organize this challenging problem or goal."	0	0	pst06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, trying to talk to your parents about your current relationship may be really hard."	0	0	pst06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Let's write down all of the thoughts, feelings, and concerns that are contributing to your experience of being overwhelmed as a way to begin to organize all of this information."	0	0	pst06
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Through visualization, you learn to use visual imagery to help understand and clarify a current problem or goal."	0	0	pst07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		One way is to try picturing the problem in your imagination to help you better define it.	0	0	pst07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		You can also use visualization to rehearse how you'll carry out a solution or action plan that you have developed.	0	0	pst07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Finally, you can use visualization to help calm you when you experience strong emotions associated with stress."	0	0	pst07
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Through visualization, you learn to use visual imagery to help understand and clarify a current problem or goal."	0	0	pst07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		One way is to try picturing the problem in your imagination to help you better define it.	0	0	pst07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		You can also use visualization to rehearse how you'll carry out a solution or action plan that you have developed.	0	0	pst07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Finally, you can use visualization to help calm you when you experience strong emotions associated with stress."	0	0	pst07
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We teach you the use of “simplification” to break down a large or complex problem to make it more manageable.	0	0	pst08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		You will learn how to break down these big problems into smaller steps.	0	0	pst08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"For example, consider how you would begin to break down a complex situation like getting into medical school into smaller pieces to accomplish one at a time."	0	0	pst08
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"We teach you the use of ""simplification"" to break down a large or complex problem to make it more manageable."	0	0	pst08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		You will learn how to break down these big problems into smaller steps.	0	0	pst08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"For example, consider how you would begin to break down a complex situation like getting into medical school into smaller pieces to accomplish one at a time."	0	0	pst08
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"When facing a stressful problem or daunting goal, it can be hard to believe that there are ways to effectively manage the stress, reach a goal, or solve the problem."	0	0	pst09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		One tool that can help uses visualization in a special way to give you a glimpse of the future.	0	0	pst09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Try imagining what it would be like at a moment in time in the future when a stressful problem you are facing is largely resolved and the obstacles overcome, such as talking making a change in your plan for a career."	0	0	pst09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		This won't immediately solve the problem but will give you an experience of what it would feel like to reach your goal and experience a “light at the end of the tunnel.”	0	0	pst09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		We all need a picture in our head of what we are working toward. We will continue to practice doing this together.	0	0	pst09
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"When facing a stressful problem or daunting goal, it can be hard to believe that there are ways to effectively manage the stress, reach a goal, or solve the problem."	0	0	pst09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		One tool that can help uses visualization in a special way to give you a glimpse of the future.	0	0	pst09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Try imagining what it would be like at a moment in time in the future when a stressful problem you are facing is largely resolved and the obstacles overcome, such as making a change in your plan for a career."	0	0	pst09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"This won't immediately solve the problem but will give you an experience of what it would feel like to reach your goal and experience a ""light at the end of the tunnel."""	0	0	pst09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		We all need a picture in our head of what we are working toward. We will continue to practice doing this together.	0	0	pst09
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
 s	1	0.000000	5.000000	5.000000	1	n	n	p		instrux.jpg	0	0	instrux
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		This important toolkit is referred to as the “SSTA” method.	0	0	pst10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"In SSTA, the first S = Stop (and be aware of what you are experiencing)."	0	0	pst10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"The second S = Slow down and take a moment to “turn down the volume of strong emotions.” You can take a few deep breaths, or use other techniques, so you can still listen to your feelings which give you important information, but allow your brain to keep working."	0	0	pst10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Ultimately, you will need to think carefully and planfully about an action plan that gives you the best chance of reaching your goals or solving a problem. Only after reducing intense emotional arousal and “turning down the volume,” can you planfully and carefully."	0	0	pst10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	6.000000	6.000000	1	n	n	t		"Finally, T = Think, and A = Act."	0	0	pst10
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		relevance.jpg	0	0	relevance
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		liking.jpg	0	0	liking
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
-s	1	0.000000	3.000000	3.000000	1	12345	n	p		helpfulness.jpg	0	0	helpfulness
-s	1	0.000000	2.000000	2.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"This important toolkit is referred to as the ""SSTA"" method."	0	0	pst10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"In SSTA, the first S = Stop (and be aware of what you are experiencing)."	0	0	pst10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"The second S = Slow down and take a moment to ""turn down the volume of strong emotions."" You can take a few deep breaths, or use other techniques, so you can still listen to your feelings which give you important information, but allow your brain to keep working."	0	0	pst10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Ultimately, you will need to think carefully and planfully about an action plan that gives you the best chance of reaching your goals or solving a problem. Only after reducing intense emotional arousal and ""turning down the volume,"" can you planfully and carefully."	0	0	pst10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	7.000000	7.000000	1	n	n	t		"Finally, T = Think, and A = Act."	0	0	pst10
+s	1	0.000000	0.500000	0.500000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		relevance.jpg	0	0	relevance
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		liking.jpg	0	0	liking
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
+s	1	0.000000	3.000000	3.000000	1	56789	n	p		helpfulness.jpg	0	0	helpfulness
+s	1	0.000000	1.000000	1.000000	1	n	n	p		fix.jpg	0	0	fix
