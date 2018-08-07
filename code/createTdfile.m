@@ -1,6 +1,15 @@
-function[] = createTdfile(DIR, tdfile_instrux,tdfile_trialParams,tdfile_trialText,tdfile_ratings)
+function[] = createTdfile()
 
-tdfile_complete = 'PROP_combined.txt';
+DIR.task = '~/Desktop/PROP/';
+DIR.input = [DIR.task 'input' filesep];
+DIR.output = [DIR.task 'output' filesep];
+
+tdfile_instrux = 'PROP_instrux.txt';
+tdfile_trialParams = 'PROP_trialParams.txt';
+tdfile_trialText = 'PROP_trialText.txt';
+tdfile_ratings = 'PROP_ratings.txt';
+
+tdfile_complete = 'PROP1.txt';
 
 cd(DIR.input)
 %make sure that the input script (tdfile) is actually a file
