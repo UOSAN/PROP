@@ -5,23 +5,17 @@ tdfile_trialParams = 'PROP_trialParams.txt';
 tdfile_trialText = 'PROP_trialText.txt';
 tdfile_ratings = 'PROP_ratings.txt';
 
-nVignTypes = 2;
-vignPerType = 10;
-vignCodeLength = 5;
-nRuns = 2;
-
-tdfile_complete = cell(1,2);
-for r=1:nRuns
-    tdfile_complete{r} = ['PROP' num2str(r) '.txt'];
-end
+tdfile_complete = 'PROP1.txt';
 
 DIR.task = '~/Desktop/PROP/';
 DIR.input = [DIR.task 'input' filesep];
 DIR.output = [DIR.task 'output' filesep];
-
+vignCodeLength = 5;
 
 rng('default')
 rng('shuffle')
+nVignTypes = 2;
+vignPerType = 10;
 %%%%%%%%%
 
 cd(DIR.input)
@@ -121,30 +115,23 @@ else
     % Then choose 5 of each, randomly
     isCbtRun1 = Shuffle([zeros(vignPerType/2,1);ones(vignPerType/2,1)]);
     isPstRun1 = Shuffle([zeros(vignPerType/2,1);ones(vignPerType/2,1)]);
-    isRun1 = logical([isCbtRun1;isPstRun1]);
+    isRun1 = logical([cbtRun1;pstRun1]);
     
     vignettes_shuffWithin_r1 = allVignettes(isRun1);
     vignettes_shuffWithin_r2 = allVignettes(~isRun1);
     
     vignettes = cell(vignPerType,nVignTypes);
-    
-    OK = 0;
-    while ~OK
-        vignettes(:,1) = Shuffle(vignettes_shuffWithin_r1);
-        vignettes(:,2) = Shuffle(vignettes_shuffWithin_r2);
-    
-        disp(vignettes)
-        OK = input('Is this order acceptable? [1=yes, 0=no] ');
-    end
+    vignettes(:,1) = Shuffle(vignettes_shuffWithin_r1);
+    vignettes(:,2) = Shuffle(vignettes_shuffWithin_r2);
     
     masterCell = {};
     
-    for r = 1:nRuns
+    for r = 1:nVignTypes
         for v = 1:vignPerType
-            currentVignetteIdx = cellfun(@(x) strcmp(x(1:vignCodeLength),vignettes{v,r}),trialTextCell{:,2});
-            vignetteText = trialTextCell_flat(logical(currentVignetteIdx),1);
+            currentVignetteIdx = cellfun(@(x) strcmp(x(1:vignCodeLength),vignettes{r,v}),trialTextCell{:,2});
+            vignetteText{v} = trialTextCell_flat(logical(currentVignetteIdx),1);
             
-            nSentences = size(vignetteText,1);
+            nSentences = size(vignetteText{v},1);
             % Create trial content:
             trialContentCell = cell(nSentences*size(trialParamsCell_flat,1),size(trialParamsCell_flat,2));
             
@@ -152,7 +139,7 @@ else
                 trialContentCell(2*s-1:2*s,:) = trialParamsCell_flat;
             end
             
-            trialContentCell(1:2:end,11) = vignetteText(1:end);
+            trialContentCell(1:2:end,11) = vignetteText{v}(1:end);
             trialContentCell(1:2:end,14) = vignettes(v);
             
             masterCell = vertcat(masterCell,instruxCell_flat,trialContentCell,ratingCell_flat);
@@ -160,7 +147,7 @@ else
             % ratings
         end
         
-        fid = fopen(tdfile_complete{r},'w');
+        fid = fopen(tdfile_complete,'w');
         
         % Print header to file:
         headerSpec = '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n';
