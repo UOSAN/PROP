@@ -12,7 +12,7 @@ nRuns = 2;
 
 tdfile_complete = cell(1,2);
 for r=1:nRuns
-    tdfile_complete{r} = ['PROP' num2str(r) '.txt'];
+    tdfile_complete{r} = ['PROP_run' num2str(r) '.txt'];
 end
 
 DIR.task = '~/Desktop/PROP/';

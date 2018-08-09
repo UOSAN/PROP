@@ -62,7 +62,15 @@ experiment_notes='This is the script for the PRP task, updated 7-19-18.';
 fprintf('%s (revised %s)\n',experiment_name, script_revision_date);
 
 % read in subject code
-subject_code=input('Enter subject code: ','s'); % the 's' tells input to take in a text string rather than a number
+subject_code=input('Enter subject code: ');
+
+if subject_code < 10
+    placeholder = '00';
+elseif subject_code < 100
+    placeholder = '0';
+else
+    placeholder = '';
+end
 
 % read in input device
 button_box = input('Do you want to use the button box? [Enter 1 if yes, 0 if no]: ');
@@ -348,8 +356,9 @@ end;
 d=clock; % read the clock information
 		 % this spits out an array of numbers from year to second
 
-output_filename=sprintf('%s_%s_%s_%s_%02.0f-%02.0f.mat',subject_code,experiment_code,tdfile,date,d(4),d(5));
-output_filename = [DIR.output filesep output_filename];
+output_filename=sprintf('%s%s%s_%s_%s_%02.0f-%02.0f.mat',experiment_code,placeholder,num2str(subject_code),tdfile,date,d(4),d(5));
+output_filename_local = [DIR.output filesep output_filename];
+output_filename_dropbox = [DIR.output filesep output_filename];
     
 % create a data structure with info about the run
 run_info.subject_code=subject_code;
@@ -366,7 +375,7 @@ run_info.trial_order=trial_order;
 run_info.tag=tag;
 
 % save the data to the desired file
-save(output_filename,'run_info','key_presses');
+save(output_filename_local,'run_info','key_presses');
 
 %% Setup initial screen & display settings
 
@@ -627,7 +636,7 @@ for j = 1:number_of_trials,
         run_info.rt=rt;
 
         % save the data to the desired file
-        save(output_filename,'run_info','key_presses');
+        save(output_filename_local,'run_info','key_presses');
         
     else
         if st(i) == 't' %primary stimulus is text
@@ -701,7 +710,7 @@ for j = 1:number_of_trials,
         run_info.rt=rt;
     
         % save the data to the desired file
-        save(output_filename,'run_info','key_presses');
+        save(output_filename_local,'run_info','key_presses');
 
         %wait for a response, or for the trial to end (whichever comes first)
         no_response_yet=1;
@@ -812,13 +821,18 @@ run_info.responses = clean_output(run_info.responses);
 key_presses.key = clean_output(key_presses.key);
 
 % save the final, cleaned data to the desired file
-save(output_filename,'run_info','key_presses');
+save(output_filename_local,'run_info','key_presses');
+
+% backup to dropbox
+if exist(DIR.dropboxOutput)
+    save(output_filename_dropbox,'run_info','key_presses');
+end
 
 % after everything is done, clear the screen
 Screen('CloseAll'); % Close all screens, return to windows.
 ShowCursor;
 
 %print a report
-experiment_output(output_filename,PRINT_OUTPUT); %Results will always print to screen, PRINT_OUTPUT determines whether gets saved to txt file as well
+experiment_output(output_filename_local,PRINT_OUTPUT); %Results will always print to screen, PRINT_OUTPUT determines whether gets saved to txt file as well
 
 
