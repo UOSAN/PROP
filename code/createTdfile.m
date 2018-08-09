@@ -137,9 +137,8 @@ else
         OK = input('Is this order acceptable? [1=yes, 0=no] ');
     end
     
-    masterCell = {};
-    
     for r = 1:nRuns
+        masterCell = {};
         for v = 1:vignPerType
             currentVignetteIdx = cellfun(@(x) strcmp(x(1:vignCodeLength),vignettes{v,r}),trialTextCell{:,2});
             vignetteText = trialTextCell_flat(logical(currentVignetteIdx),1);
