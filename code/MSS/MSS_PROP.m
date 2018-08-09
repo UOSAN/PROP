@@ -329,7 +329,6 @@ if button_box,
             break,
         end;
     end;
-    
     trigger=([52]);
         
 else
@@ -350,7 +349,7 @@ else
     fprintf('Using Device #%d (%s) as input device\n',inputDevice,devices(n).product);
 end;
 
-
+save devices
 %% Create place to save the data collected to a file
 
 d=clock; % read the clock information
