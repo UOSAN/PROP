@@ -1,4 +1,4 @@
-function MSS_PROP(tdfile,resource_path,DIR,startToggle)
+function MSS_PROP(tdfile,resource_path,DIR,subject_code,startToggle)
 
 %% MSS(tdfile,resource_path) 
 %This is a program which presents text, sound and video stimuli using a
@@ -62,15 +62,7 @@ experiment_notes='This is the script for the PRP task, updated 7-19-18.';
 fprintf('%s (revised %s)\n',experiment_name, script_revision_date);
 
 % read in subject code
-subject_code=input('Enter subject code: ');
-
-if subject_code < 10
-    placeholder = '00';
-elseif subject_code < 100
-    placeholder = '0';
-else
-    placeholder = '';
-end
+% subject_code=input('Enter subject code: ');
 
 % read in input device
 button_box = input('Do you want to use the button box? [Enter 1 if yes, 0 if no]: ');
@@ -349,13 +341,12 @@ else
     fprintf('Using Device #%d (%s) as input device\n',inputDevice,devices(n).product);
 end;
 
-save devices
 %% Create place to save the data collected to a file
 
 d=clock; % read the clock information
 		 % this spits out an array of numbers from year to second
 
-output_filename=sprintf('%s%s%s_%s_%s_%02.0f-%02.0f.mat',experiment_code,placeholder,num2str(subject_code),tdfile,date,d(4),d(5));
+output_filename=sprintf('%s_%s_%s_%02.0f-%02.0f.mat',subject_code,tdfile,date,d(4),d(5));
 output_filename_local = [DIR.output filesep output_filename];
 output_filename_dropbox = [DIR.output filesep output_filename];
     

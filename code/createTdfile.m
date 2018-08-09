@@ -1,5 +1,17 @@
 function[] = createTdfile()
 
+subNum=input('Enter participant number: ');
+
+if subNum < 10
+    placeholder = '00';
+elseif subNum < 100
+    placeholder = '0';
+else
+    placeholder = '';
+end
+
+subjectCode = ['PROP' placeholder num2str(subNum)];
+
 tdfile_instrux = 'PROP_instrux.txt';
 tdfile_trialParams = 'PROP_trialParams.txt';
 tdfile_trialText = 'PROP_trialText.txt';
@@ -12,7 +24,7 @@ nRuns = 2;
 
 tdfile_complete = cell(1,2);
 for r=1:nRuns
-    tdfile_complete{r} = ['PROP_run' num2str(r) '.txt'];
+    tdfile_complete{r} = [subjectCode '_run' num2str(r) '.txt'];
 end
 
 DIR.task = '~/Desktop/PROP/';
@@ -174,5 +186,7 @@ else
         fclose(fid);
     end
 end;
+
+cd([DIR.task '/code'])
 
 end

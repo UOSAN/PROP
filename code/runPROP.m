@@ -13,12 +13,24 @@ DIR.input = [DIR.task 'input' filesep];
 DIR.output = [DIR.task 'output' filesep];
 DIR.dropboxOutput = '~/Dropbox (Pfeiber Lab)/PROP/output/';
 
-runNum = input('What run is this? ');
-tdfile = ['PROP_run' num2str(runNum) '.txt'];
+subNum=input('Enter participant number: ');
+
+if subNum < 10
+    placeholder = '00';
+elseif subNum < 100
+    placeholder = '0';
+else
+    placeholder = '';
+end
+
+subjectCode = ['PROP' placeholder num2str(subNum)];
+
+runNum = input('Enter run number: ');
+tdfile = [subjectCode '_run' num2str(runNum) '.txt'];
 
 cd(DIR.task)
 addpath(genpath(DIR.task))
 
-MSS_PROP([DIR.input tdfile],[DIR.input 'stimuli'],DIR)
+MSS_PROP([DIR.input tdfile],[DIR.input 'stimuli'],DIR,subjectCode)
 
 end
