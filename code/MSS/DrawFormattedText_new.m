@@ -1,4 +1,4 @@
-function [nx, ny, textbounds] = DrawFormattedText_new(win, tstring, sx, sy, color, wrapat, hshift, vshift)
+function [nx, ny, textbounds] = DrawFormattedText_new(win, tstring, sx, sy, color, wrapat, hshift, vshift, vSpacing)
 % [nx, ny, textbounds] = DrawFormattedText_new(win, tstring [, sx][, sy][, color][, wrapat][, hshift][, vshift])
 %
 % Draws a string of text 'tstring' into Psychtoolbox window 'win'. Allows
@@ -67,6 +67,10 @@ if nargin < 6 || isempty(wrapat)
     wrapat = 0;
 end
 
+if nargin < 9 || isempty(vSpacing)
+    vSpacing = 1;
+end
+
 % If '\n' is already encoded as a char(10) as in Octave, then
 % there's no need for replacemet.
 if char(10) == '\n'
@@ -122,7 +126,9 @@ while ~isempty(newlinepos)
 end
 
 % Query textsize for implementation of linefeeds:
-theight = Screen('TextSize', win);
+theight = Screen('TextSize', win) * vSpacing; %LK
+% theight = Screen('TextSize', win);
+
 % Query window size as well:
 [winwidth winheight] = Screen('WindowSize', win);
 
@@ -252,7 +258,16 @@ while length(tstring)>0
 end
 
 % Add one line height:
-maxy = maxy + theight;
+% maxy = maxy + theight;
+if numlines > 1 %LK
+    % Make sure to discount vSpacing for the last line
+    % to avoid a large void below the drawn text.
+    maxy = maxy + theight / vSpacing;
+else
+    % Special case one-liner without linefeed. Snugly
+    % fit the bounding box:
+    maxy = maxy + theight;
+end
 
 % Create final bounding box:
 textbounds = SetRect(minx, miny, maxx, maxy);

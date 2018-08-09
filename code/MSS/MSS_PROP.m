@@ -28,6 +28,7 @@ function MSS_PROP(tdfile,resource_path,DIR,startToggle)
 Screen('Preference', 'SkipSyncTests', 1)
 DEBUG = 0;
 PRINT_OUTPUT = 1; %Results will always print to screen, PRINT_OUTPUT determines whether gets saved to txt file as well
+vSpacing = 1.5; % spacing for text stimuli
 
 default_start = 'default_start.jpg'; % Set the adult and kid start-up images
 kid_start = 'kid_start.jpg';
@@ -269,7 +270,7 @@ default_stimulus_duration=0; % time for stimulus, in seconds
 interstimulus_interval= 0; % default time between trials, in seconds
 trial_order = calculate_trial_order(typ,num); %default stimulus order is consecutive
 default_wrap = 1200; %in pixels
-default_display = sprintf('DrawFormattedText_new(w,''+'',''center'', ''center'',black, default_wrap,0,0);');
+default_display = sprintf('DrawFormattedText_new(w,''+'',''center'', ''center'',black, default_wrap,0,0,vSpacing);');
 nrchannels = 1; %default number of channels for sound playback is 1 = mono (if you have stereo sound, use nrchannels = 2)
 
 % set up variables to store data
@@ -569,7 +570,7 @@ for j = 1:number_of_trials,
     
     if ~isempty(bgFile{i}) %if a background file has been specified
         if bg(i) == 't' %background is text
-            bg_display = sprintf('DrawFormattedText_new(w,bgFile{i},''center'', ''center'',black, default_wrap,hshift(i),vshift(i));'); 
+            bg_display = sprintf('DrawFormattedText_new(w,bgFile{i},''center'', ''center'',black, default_wrap,hshift(i),vshift(i),vSpacing);'); 
         elseif bg(i) == 'p' %background is a picture
             %sets image up for the screen
             bg_display = sprintf('Screen(''DrawTexture'',w,bg_imagetex(i),[],bRect{i});');
@@ -638,7 +639,7 @@ for j = 1:number_of_trials,
 
             % setup text to be displayed (as written, will center text and
             % wrap at default_wrap pixels)
-            displaycommand = sprintf('DrawFormattedText_new(w,stFile{i},''center'', ''center'',white, default_wrap,hshift(i),vshift(i));');
+            displaycommand = sprintf('DrawFormattedText_new(w,stFile{i},''center'', ''center'',white, default_wrap,hshift(i),vshift(i),vSpacing);');
 
         elseif st(i) == 's' %primary stimulus is sound
             eval(bg_display); %present the background file while sound is playing
