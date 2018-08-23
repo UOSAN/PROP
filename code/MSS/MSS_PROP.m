@@ -346,9 +346,10 @@ end;
 d=clock; % read the clock information
 		 % this spits out an array of numbers from year to second
 
-output_filename=sprintf('%s_%s_%s_%02.0f-%02.0f.mat',subject_code,tdfile,date,d(4),d(5));
+output_filename=sprintf('sub-%s_ses-1_task-%s_run-%d_beh.mat',subject_code(end-2:end),experiment_code,runNum);
+% output_filename=sprintf('%s_%s_%s_%02.0f-%02.0f.mat',subject_code,tdfile,date,d(4),d(5));
 output_filename_local = [DIR.output filesep output_filename];
-output_filename_dropbox = [DIR.output filesep output_filename];
+output_filename_dropbox = [DIR.dropboxOutput filesep output_filename];
     
 % create a data structure with info about the run
 run_info.subject_code=subject_code;
