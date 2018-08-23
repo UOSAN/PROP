@@ -1,4 +1,4 @@
-function MSS_PROP(tdfile,resource_path,DIR,subject_code,startToggle)
+function MSS_PROP(tdfile,resource_path,DIR,subject_code,runNum,startToggle)
 
 %% MSS(tdfile,resource_path) 
 %This is a program which presents text, sound and video stimuli using a
@@ -27,7 +27,7 @@ function MSS_PROP(tdfile,resource_path,DIR,subject_code,startToggle)
 
 Screen('Preference', 'SkipSyncTests', 1)
 DEBUG = 0;
-PRINT_OUTPUT = 1; %Results will always print to screen, PRINT_OUTPUT determines whether gets saved to txt file as well
+PRINT_OUTPUT = 0; %Results will always print to screen, PRINT_OUTPUT determines whether gets saved to txt file as well
 vSpacing = 1.5; % spacing for text stimuli
 
 default_start = 'default_start.jpg'; % Set the adult and kid start-up images
