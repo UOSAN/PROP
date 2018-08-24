@@ -36,7 +36,19 @@ kid_start = 'kid_start.jpg';
 experiment_name='Personal Relevance of Psychotherapy';
 experiment_code='PROP';  % this should be a short (2-3 letter) code for the experiment
                         % it will be put as part of the data file name
-script_revision_date='07/19/18';
+
+                        
+                        
+                        output_filename=sprintf('sub-%s_ses-1_task-%s_run-%d_beh.mat',subject_code(end-2:end),experiment_code,runNum);
+% output_filename=sprintf('%s_%s_%s_%02.0f-%02.0f.mat',subject_code,tdfile,date,d(4),d(5));
+output_filename_local = [DIR.output filesep output_filename];
+output_filename_dropbox = [DIR.dropboxOutput filesep output_filename];
+
+if exist(output_filename)
+    error('You already have an output file for subject %s, session %d.',subject_code(end-2:end),runNum)
+end
+
+                        script_revision_date='08/23/18';
     %Originally created 12/14/07 by Emily Falk
     %Revisions
         %7/11/08: Updated to preload sound and movie resources; Updated to allow specification of path for tdfile and
@@ -345,11 +357,6 @@ end;
 
 d=clock; % read the clock information
 		 % this spits out an array of numbers from year to second
-
-output_filename=sprintf('sub-%s_ses-1_task-%s_run-%d_beh.mat',subject_code(end-2:end),experiment_code,runNum);
-% output_filename=sprintf('%s_%s_%s_%02.0f-%02.0f.mat',subject_code,tdfile,date,d(4),d(5));
-output_filename_local = [DIR.output filesep output_filename];
-output_filename_dropbox = [DIR.dropboxOutput filesep output_filename];
     
 % create a data structure with info about the run
 run_info.subject_code=subject_code;
