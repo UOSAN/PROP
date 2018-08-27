@@ -403,7 +403,7 @@ theFont='Arial';
 Screen('TextFont',w,theFont);
 
 % use 48 point font in black
-Screen('TextSize',w, 48);
+Screen('TextSize',w, 60);
 Screen('TextColor',w,black);
     
 
