@@ -149,7 +149,6 @@ else
         OK = input('Is this order acceptable? [1=yes, 0=no] ');
     end
     
-    TRcount = nan(1,nRuns);
     for r = 1:nRuns
         masterCell = {};
         for v = 1:vignPerType
@@ -173,7 +172,7 @@ else
         end
         
         runTime = sum(cell2mat(masterCell(:,5)));
-        TRcount(r) = ceil(runTime/2);
+        TRcount = nanTRcount(r)
         
         fid = fopen(tdfile_complete{r},'w');
         
@@ -189,7 +188,6 @@ else
         end
         fclose(fid);
     end
-    fprintf('Run 1: %d TRs\nRun 2: %d TRs\n', TRcount(1),TRcount(2))
 end;
 
 cd([DIR.task '/code'])
