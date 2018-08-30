@@ -31,6 +31,9 @@ DIR.task = '~/Desktop/PROP/';
 DIR.input = [DIR.task 'input' filesep];
 DIR.output = [DIR.task 'output' filesep];
 
+if exist([DIR.input filesep subjectCode '_run1.txt'])
+    error('You already have tdfiles for subject %d.',subNum)
+end
 
 rng('default')
 rng('shuffle')
