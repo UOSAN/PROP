@@ -6,7 +6,7 @@ nRuns = 2;
 studyCode = 'PROP';
 taskCode = 'PROP';
 masterMat = [];
-filenames.respCheck = [DIR.bx filesep 'compiled' filesep 'responseComparison'];
+filenames.respCheck = [DIR.bx filesep ratings filesep 'responseComparison'];
 
 for s = subList
     
@@ -64,8 +64,8 @@ for s = subList
 end
 
 fid = fopen([filenames.respCheck '.txt'],'w');
-fprintf(fid,'%s\t%s\t%s\t%s\t%s\n','sub','run','keys logged','run_info.responses','missing');
-for l=1:size(masterMat,1)
-    fprintf(fid,'%d\t%d\t%d\t%d\t%d\n', masterMat(l,1),masterMat(l,2),masterMat(l,3),masterMat(l,4),30-masterMat(l,4));
+fprintf(fid,'%s\t%s\t%s\t%s\n','sub','run','keys ','liking');
+for l=1:size(ratings,1)
+    fprintf(fid,'%d\t%d\t%d\t%d\n', ratings(l,1),ratings(l,2),ratings(l,3),ratings(l,4));
 end
 fclose(fid);
