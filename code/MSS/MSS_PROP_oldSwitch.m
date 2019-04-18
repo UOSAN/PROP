@@ -294,65 +294,63 @@ key_presses = struct('key',{{}},'time',[],'stimulus',{{}}); %matrix to hold key 
 
 
 %% set up input devices
+numDevices=PsychHID('NumDevices');
+devices=PsychHID('Devices');
+ 
+if DEBUG
+    devices.product
+end;
 
-[ homeDevice, inputDevice ] = getKeyboards;
 
-% numDevices=PsychHID('NumDevices');
-% devices=PsychHID('Devices');
-%  
-% if DEBUG
-%     devices.product
-% end;
-% 
-% %makes start device the control computer (see note below re: customizing to your computer)
-% for k = 1:numDevices,
-%     if DEBUG
-%         fprintf('I got into the k = 1:numDevices loop\n')
-%     end;
-%     
-%     if (findstr(devices(k).transport,'USB') & findstr(devices(k).usageName,'Keyboard')),
-%         homeDevice=k
-%         break,
-%     elseif (findstr(devices(k).transport,'Bluetooth') & findstr(devices(k).usageName,'Keyboard')),
-%         homeDevice=k
-%         break,
-%     elseif findstr(devices(k).transport,'SPI') & findstr(devices(k).usageName,'Keyboard'), 
-%         homeDevice=k
-%         break,
-%     elseif findstr(devices(k).transport,'ADB') & findstr(devices(k).usageName,'Keyboard'),
-%         homeDevice=k
-%     end;    
-% end;
-% fprintf('Using Device #%d (%s) as home device\n',homeDevice,devices(k).product);
+%makes start device the control computer (see note below re: customizing to your computer)
+for k = 1:numDevices,
+    if DEBUG
+        fprintf('I got into the k = 1:numDevices loop\n')
+    end;
+    
+    if (findstr(devices(k).transport,'USB') & findstr(devices(k).usageName,'Keyboard')),
+        homeDevice=k
+        break,
+    elseif (findstr(devices(k).transport,'Bluetooth') & findstr(devices(k).usageName,'Keyboard')),
+        homeDevice=k
+        break,
+    elseif findstr(devices(k).transport,'SPI') & findstr(devices(k).usageName,'Keyboard'), 
+        homeDevice=k
+        break,
+    elseif findstr(devices(k).transport,'ADB') & findstr(devices(k).usageName,'Keyboard'),
+        homeDevice=k
+    end;    
+end;
+fprintf('Using Device #%d (%s) as home device\n',homeDevice,devices(k).product);
 
 %if button box was requested at start of experiment, use it, otherwise, use
 %the keyboard
 if button_box,
-%     for n=1:numDevices,
-%         if (strcmp(devices(n).transport,'USB') && strcmp(devices(n).usageName,'Keyboard') && strcmp(devices(n).product,'Xkeys')),
-%             inputDevice=n;
-%             fprintf('Using Device #%d (%s)\n',inputDevice,devices(inputDevice).product);
-%             break,
-%         end;
-%     end;
+    for n=1:numDevices,
+        if (strcmp(devices(n).transport,'USB') && strcmp(devices(n).usageName,'Keyboard') && strcmp(devices(n).product,'Xkeys')),
+            inputDevice=n;
+            fprintf('Using Device #%d (%s)\n',inputDevice,devices(inputDevice).product);
+            break,
+        end;
+    end;
     trigger=([52]);
         
 else
-%     for n=1:numDevices,
-%         if (findstr(devices(n).transport,'USB') & findstr(devices(n).usageName,'Keyboard')),
-%             inputDevice=[n n];
-%             break,
-%         elseif (findstr(devices(n).transport,'Bluetooth') & findstr(devices(n).usageName,'Keyboard')),
-%             inputDevice=[n n];
-%             break,
-%         elseif findstr(devices(n).transport,'SPI') & findstr(devices(n).usageName,'Keyboard'), %% added this (with SPI)
-%             inputDevice=[n n];
-%             break,
-%         elseif findstr(devices(n).transport,'ADB') & findstr(devices(n).usageName,'Keyboard'),
-%             inputDevice=[n n];
-%         end;
-%     end;
-%     fprintf('Using Device #%d (%s) as input device\n',inputDevice,devices(n).product);
+    for n=1:numDevices,
+        if (findstr(devices(n).transport,'USB') & findstr(devices(n).usageName,'Keyboard')),
+            inputDevice=[n n];
+            break,
+        elseif (findstr(devices(n).transport,'Bluetooth') & findstr(devices(n).usageName,'Keyboard')),
+            inputDevice=[n n];
+            break,
+        elseif findstr(devices(n).transport,'SPI') & findstr(devices(n).usageName,'Keyboard'), %% added this (with SPI)
+            inputDevice=[n n];
+            break,
+        elseif findstr(devices(n).transport,'ADB') & findstr(devices(n).usageName,'Keyboard'),
+            inputDevice=[n n];
+        end;
+    end;
+    fprintf('Using Device #%d (%s) as input device\n',inputDevice,devices(n).product);
 end;
 
 %% Create place to save the data collected to a file
